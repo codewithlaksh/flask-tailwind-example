@@ -1,0 +1,12 @@
+{
+  "name": "flask-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "yarn tailwindcss ./static/input.css -o ./static/main.css --minify --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
